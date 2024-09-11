@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="ecommerce, shopping" />
+  <meta name="author" content="Wazin" />
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wazin</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="icon" href="images/test/hover-image-01.webp" type="" />
+
+  <!-- ================================================== -->
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- ================================================== -->
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- ================================================== -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <!-- ================================================== -->
+  <!-- style css en & ar -->
+
+  <!-- the compressed, production -->
+  <link rel="stylesheet" href="css/style-en.css" />
+  <!-- <link rel="stylesheet" href="css/style-ar.css" /> -->
+
+
+  <!-- ================================================== -->
+
+  <style>
+    :root {
+      /* --mainColor: #5d1be0; */
+    }
+  </style>
+  <!-- ================================================== -->
+</head>
+
+<body>
+
+  <!-- ================================================== -->
+  <!-- navbar -->
+  <nav class="">
+    <div class="box-nav ">
+      <div class="container">
+
+        <div class="box-items-nav">
+          <div class="d-flex gap-3 w-100">
+            <div class="box-logo-nav">
+              <a href="index.html">
+                <img src="images/test/logo-nav.png" alt="" />
+              </a>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="box-Categories-nav box-Categories-nav-1">
+                <select class="form-select select-Categories" aria-label="Default select example">
+                  <option selected>Categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="box-Search-nav">
+                <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-list-link-nav-1">
+            <ul class="box-lists-ul">
+
+              <li class="item-link Favorite">
+                <a href="index.html"></a>
+              </li>
+
+              <li class="item-link">
+                <a href="index.html">Sell</a>
+              </li>
+
+
+              <li class="item-link">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarHeart"
+                  aria-controls="offcanvasNavbarHeart" aria-label="Toggle navigation" class="btn btn-heart">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="item-count hide item-count-nav"><span class=""></span></div>
+                </button>
+              </li>
+
+              <li class="item-link">
+                <div class="box-Notices"><i class="fa-regular fa-bell"></i></div>
+              </li>
+
+
+
+
+
+              <!-- ------------------------------------------------------- -->
+
+              <!-- <li class="item-link">
+                <div class="box-Categories-nav box-Categories-nav-2">
+                  <select class="form-select select-Categories" aria-label="Default select example">
+                    <option selected>Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </li> -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- Sign in / Sign up -->
+              <!-- <li class="item-link btn-buy-now box-button-Login-pc">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn btn-Login">Sign in
+                  / Sign up</button>
+              </li> -->
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- userName -->
+              <li class="item-link">
+                <div class="dropdown box-dropdown-userName">
+                  <button class="btn btn-dropdown-userName" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="icon-userName"><i class="fa-regular fa-user"></i></span>
+                    <span class="userName">
+                      Ahmed
+                    </span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item active" href="#"><span><i
+                            class="fa-light fa-basket-shopping"></i></span> Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><span><i class="fa-light fa-gear"></i></span> Settings </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> <span><i
+                            class="fa-light fa-arrow-right-from-bracket"></i></span> Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- language -->
+              <li class="item-link">
+                <div class="dropdown box-language-dropdown">
+                  <button class="btn btn-dropdown-language" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="text-language">EN</span>
+                    <span class="icon-language"><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><a class="dropdown-item" href="#">AR</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <li class="item-link btn-buy-now box-Search-nav-mo">
+                <div class="Search-nav-mo">
+                  <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                  <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="box-menu">
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================== -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Log In Modal-->
+  <section>
+    <div class="box-Modal-LogIn">
+      <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-LogIn">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- phone -->
+              <div class="box-phone-login">
+
+                <div class="d-flex flex-column gap-4">
+
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span>Sign in or create an account</span>
+                    <div class="box-close-modal">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <h3>Welcome back!</h3>
+                  <form action="">
+                    <label for="input-phone" class="form-label label-phone">Phone number</label>
+                    <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                    <button type="button" class="btn btn-LogIn-Modal" id="btnLogIn">Sign in</button>
+                  </form>
+
+                </div>
+              </div>
+              <!-- otp -->
+              <div class="box-otp-login">
+
+                <div class="row align-items-center">
+
+                  <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="box-back-Phone-code">
+                        <button class="btn btn-back-Phone"> <i class="fa-solid fa-arrow-left"></i></button>
+                        <span>Verification code</span>
+                      </div>
+                      <div class="box-close-modal">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    </div>
+
+
+                    <form action="">
+                      <p>Enter the code that sent to</p>
+                      <div class="phone-in-otp">+966 597 556 153</div>
+
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                      <div class="d-flex align-items-center justify-content-center flex-column">
+
+                        <button class="btn btn-Continue-OTP">Continue</button>
+                        <button class="btn btn-Resend-OTP">Resend code</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ===================================================================================================== -->
+  <!-- Favorite -->
+  <aside>
+    <div class="offcanvas box-aside-heart offcanvas-end" tabindex="-1" id="offcanvasNavbarHeart"
+      aria-labelledby="offcanvasNavbarHeartLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasNavbarHeartLabel">
+          Favorite
+        </h2>
+        <button type="button" class="btn-close-cart btn" data-bs-dismiss="offcanvas" aria-label="Close">
+          close
+        </button>
+      </div>
+      <hr />
+      <div class="offcanvas-body offcanvas-body-Favorites">
+
+
+        <!-- ========================================== -->
+        <!-- TODO:dynamic product id -->
+        <!-- code php -->
+
+        <div class="box-all-item-heart">
+          <!-- <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- ============================================ -->
+      </div>
+    </div>
+  </aside>
+  <!-- ===================================================================================================== -->
+
+  <!-- ================================================== -->
+  <!-- nav-2 -->
+  <nav>
+    <div class="container box-pc-mo-nav-2">
+      <div class="nav-pc">
+        <div class="box-all-item-1-2">
+          <div class="box-item-1-nav-2 py-3">
+            <div class="item-link-nav-2">
+              <a class="link-nav-2-home-Upcoming link-nav-2" href="index.html">Home</a>
+            </div>
+
+            <div class="box-Upcoming-auctions">
+              <a href="Upcoming-Auctions.html" class="link-nav-2-home-Upcoming active-nav-2 link-nav-2">Upcoming
+                auctions</a>
+            </div>
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Jewelry</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Watches</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Precious pieces</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+
+          <div class=" box-item-2-nav-2">
+            <div>
+              <div class="item-link-nav-2">
+                <a class="link-nav-2" href="">About us</a>
+              </div>
+            </div>
+            <div>
+              <div class="item-link-nav-2">
+                <a class="link-nav-2" href="">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-mo">
+        <div class="box-all-item-1-2 ">
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <div class="box-item-1-nav-2">
+              <div class="item-link-nav-2">
+                <a class="link-nav-2" href="">Home</a>
+              </div>
+
+              <div>
+                <div class="item-link-nav-2">
+                  <a class="link-nav-2" href="">About us</a>
+                </div>
+              </div>
+              <div>
+                <div class="item-link-nav-2">
+                  <a class="link-nav-2" href="">Contact</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+              <div class="box-Upcoming-auctions">
+                <a href="Upcoming-Auctions.html" class="link-nav-2-home-Upcoming active-nav-2 link-nav-2">Upcoming
+                  auctions</a>
+              </div>
+              <div class="item-link btn-buy-now box-button-Login-mo">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn btn-Login"><i
+                    class="fa-solid fa-user"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" box-item-2-nav-2  mb-3">
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Jewelry</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Watches</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div>
+              <select class="form-select select-nav-2" aria-label="Default select example">
+                <option selected>Precious pieces</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================== -->
+
+  <section>
+    <div class="box-Upcoming-Auctions-section">
+      <div class="container">
+        <h1>Upcoming Auctions</h1>
+        <div class="row g-4">
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="49">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle1.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="50">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle2.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me active-Remind"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="51">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle3.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="52">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle4.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="53">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle1.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="54">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle2.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me active-Remind"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="55">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle3.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="56">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle4.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="57">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle1.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="58">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle2.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me active-Remind"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="59">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle3.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="60">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle4.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="61">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle1.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="62">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle2.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me active-Remind"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="63">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle3.png" alt="">
+                  </div>
+                </a>
+
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="item-data" data-product-id="64">
+              <div class="product-item pb-3">
+                <a href="Product-Details.html">
+                  <div class="img-product img-data">
+                    <img src="images/test/Rectangle4.png" alt="">
+                  </div>
+                </a>
+                <div class="product-item-text">
+                  <div>
+                    <div class="bids">30 bids</div>
+                  </div>
+                  <div>
+                    <button class="product-Favorite btn-Favorite-data"></button>
+
+                  </div>
+                  <h3 class="text-center titel-product">18k Diamond Ring</h3>
+                  <p>December 23, 7:00 PM</p>
+                  <div class="box-btn-Buy-now text-center">
+                    <button class="btn btn-Remind-me"><span></span>Remind me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================== -->
+  <!-- footer -->
+  <footer>
+    <div class="box-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-footer-item">
+              <div class="box-img-logo-footer">
+                <img src="images/test/logo-footer.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Iaculis magnis est lectus volutpat in. Ullamcorper nunc
+                volutpat
+                eu porttitor faucibus. Laoreet lacinia mattis facilisi elit.</p>
+
+              <div class="box-social-media">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-img-sudi-business">
+              <img src="images/test/sudi-business.png" alt="">
+            </div>
+            <div class="box-VAT">
+              <div class="box-img-VAT">
+                <img src="images/test/avt.png" alt="">
+              </div>
+              <div class="box-text-VAt">
+                <ul>
+                  <li>Company name</li>
+                  <li>Commercial register</li>
+                  <li>Tax Number</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-Copyright-Made-with">
+        <div class="box-Copyright">
+          <p>Copyright © 2023. All rights reserved</p>
+        </div>
+        <div class="box-Made-with">
+          <p>Made with 🖤 By <span><img src="images/test/dotconnect logo1 1.png" alt=""></span></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ================================================== -->
+
+  <!-- ================================================== -->
+  <!-- js -->
+  <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- owl carousel JS -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <script src="js/main-en.js"></script>
+  <!-- <script src="js/main-ar.js"></script> -->
+  <!-- ===================================================================================================== -->
+</body>
+
+</html>

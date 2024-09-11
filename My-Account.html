@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="ecommerce, shopping" />
+  <meta name="author" content="Wazin" />
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wazin</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="icon" href="images/test/hover-image-01.webp" type="" />
+
+  <!-- ================================================== -->
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- ================================================== -->
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- ================================================== -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <!-- ================================================== -->
+  <!-- style css en & ar -->
+
+  <!-- the compressed, production -->
+  <link rel="stylesheet" href="css/style-en.css" />
+  <!-- <link rel="stylesheet" href="css/style-ar.css" /> -->
+
+
+  <!-- ================================================== -->
+
+  <style>
+    :root {
+      /* --mainColor: #5d1be0; */
+    }
+  </style>
+  <!-- ================================================== -->
+</head>
+
+<body>
+  <!-- ================================================== -->
+  <!-- navbar -->
+  <nav class="">
+    <div class="box-nav ">
+      <div class="container">
+
+        <div class="box-items-nav">
+          <div class="d-flex gap-3 w-100">
+            <div class="box-logo-nav">
+              <a href="index.html">
+                <img src="images/test/logo-nav.png" alt="" />
+              </a>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="box-Categories-nav box-Categories-nav-1">
+                <select class="form-select select-Categories" aria-label="Default select example">
+                  <option selected>Categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="box-Search-nav">
+                <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-list-link-nav-1">
+            <ul class="box-lists-ul">
+
+              <li class="item-link Favorite">
+                <a href="index.html"></a>
+              </li>
+
+              <li class="item-link">
+                <a href="index.html">Sell</a>
+              </li>
+
+
+              <li class="item-link">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarHeart"
+                  aria-controls="offcanvasNavbarHeart" aria-label="Toggle navigation" class="btn btn-heart">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="item-count hide item-count-nav"><span class=""></span></div>
+                </button>
+              </li>
+
+              <li class="item-link">
+                <div class="box-Notices"><i class="fa-regular fa-bell"></i></div>
+              </li>
+
+
+
+
+
+              <!-- ------------------------------------------------------- -->
+
+              <!-- <li class="item-link">
+                <div class="box-Categories-nav box-Categories-nav-2">
+                  <select class="form-select select-Categories" aria-label="Default select example">
+                    <option selected>Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </li> -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- Sign in / Sign up -->
+              <!-- <li class="item-link btn-buy-now box-button-Login-pc">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn btn-Login">Sign in
+                  / Sign up</button>
+              </li> -->
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- userName -->
+              <li class="item-link">
+                <div class="dropdown box-dropdown-userName">
+                  <button class="btn btn-dropdown-userName" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="icon-userName"><i class="fa-regular fa-user"></i></span>
+                    <span class="userName">
+                      Ahmed 
+                    </span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item active" href="#"><span><i
+                            class="fa-light fa-basket-shopping"></i></span> Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><span><i class="fa-light fa-gear"></i></span> Settings </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> <span><i
+                            class="fa-light fa-arrow-right-from-bracket"></i></span> Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- language -->
+              <li class="item-link">
+                <div class="dropdown box-language-dropdown">
+                  <button class="btn btn-dropdown-language" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="text-language">EN</span>
+                    <span class="icon-language"><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><a class="dropdown-item" href="#">AR</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <li class="item-link btn-buy-now box-Search-nav-mo">
+                <div class="Search-nav-mo">
+                  <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                  <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="box-menu">
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================== -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Log In Modal-->
+  <section>
+    <div class="box-Modal-LogIn">
+      <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-LogIn">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- phone -->
+              <div class="box-phone-login">
+
+                <div class="d-flex flex-column gap-4">
+
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span>Sign in or create an account</span>
+                    <div class="box-close-modal">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <h3>Welcome back!</h3>
+                  <form action="">
+                    <label for="input-phone" class="form-label label-phone">Phone number</label>
+                    <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                    <button type="button" class="btn btn-LogIn-Modal" id="btnLogIn">Sign in</button>
+                  </form>
+
+                </div>
+              </div>
+              <!-- otp -->
+              <div class="box-otp-login">
+
+                <div class="row align-items-center">
+
+                  <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="box-back-Phone-code">
+                        <button class="btn btn-back-Phone"> <i class="fa-solid fa-arrow-left"></i></button>
+                        <span>Verification code</span>
+                      </div>
+                      <div class="box-close-modal">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    </div>
+
+
+                    <form action="">
+                      <p>Enter the code that sent to</p>
+                      <div class="phone-in-otp">+966 597 556 153</div>
+
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                      <div class="d-flex align-items-center justify-content-center flex-column">
+
+                        <button class="btn btn-Continue-OTP">Continue</button>
+                        <button class="btn btn-Resend-OTP">Resend code</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ===================================================================================================== -->
+  <!-- Favorite -->
+  <aside>
+    <div class="offcanvas box-aside-heart offcanvas-end" tabindex="-1" id="offcanvasNavbarHeart"
+      aria-labelledby="offcanvasNavbarHeartLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasNavbarHeartLabel">
+          Favorite
+        </h2>
+        <button type="button" class="btn-close-cart btn" data-bs-dismiss="offcanvas" aria-label="Close">
+          close
+        </button>
+      </div>
+      <hr />
+      <div class="offcanvas-body offcanvas-body-Favorites">
+
+
+        <!-- ========================================== -->
+        <!-- TODO:dynamic product id -->
+        <!-- code php -->
+
+        <div class="box-all-item-heart">
+          <!-- <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- ============================================ -->
+
+
+
+      </div>
+    </div>
+  </aside>
+  <!-- ===================================================================================================== -->
+
+  <!-- ================================================== -->
+
+  <section>
+    <div class="">
+      <div class="container">
+        <div class="box-My-Account">
+          <h1>Hello Ahmed</h1>
+
+          <div class="box-tab-My-Account">
+            <div class="row gy-4 justify-content-center">
+
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-10 col-sm-12">
+                <div class="box-links-tab">
+                  <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-Account-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-Account" type="button" role="tab" aria-controls="v-pills-Account"
+                      aria-selected="true">Account</button>
+
+                    <button class="nav-link" id="v-pills-Addresses-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-Addresses" type="button" role="tab" aria-controls="v-pills-Addresses"
+                      aria-selected="false">Addresses</button>
+
+                    <button class="nav-link" id="v-pills-Payment-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-Payment" type="button" role="tab" aria-controls="v-pills-Payment"
+                      aria-selected="false">Payment</button>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-10 col-sm-12">
+
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-Account" role="tabpanel"
+                    aria-labelledby="v-pills-Account-tab" tabindex="0">
+                    <div>
+
+                      <div class="box-Account-body">
+                        <h2 class="h2-body-Account">Account</h2>
+                        <form action="">
+                          <div class="box-form-Account">
+                            <div class="box-label-input">
+                              <label for="inputNeme" class="form-label">Full name</label>
+                              <input type="text" class="form-control" id="inputNeme" placeholder="Mohame Salem">
+                            </div>
+
+                            <div class="box-label-input">
+                              <label for="inputPhone" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail"
+                                placeholder="mohame-salem@gmail.com">
+                            </div>
+
+                            <div class="box-label-input">
+                              <label for="inputPhone" class="form-label">Phone number</label>
+                              <input type="tel" class="form-control" id="inputPhone" placeholder="+966 597 556 153">
+                            </div>
+
+                            <div>
+                              <button class="btn btn-Save-Changes">Save Changes</button>
+                            </div>
+
+                          </div>
+                        </form>
+                      </div>
+
+                      <div class="box-Delete-Continue">
+                        <button class="btn btn-Delete-account">Delete my account</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-Addresses" role="tabpanel"
+                    aria-labelledby="v-pills-Addresses-tab" tabindex="0">
+                    <!-- ----------------------------------------------------- -->
+                    <div class="box-Addresses">
+                      <h2 class="h2-body-Account">Addresses</h2>
+                      <div class="box-items-Addresses">
+                        <ul>
+                          <li>
+                            <div class="d-flex justify-content-between align-items-end">
+                              <div>
+                                <div class="d-flex gap-3">
+                                  <div class="box-icon-map">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                  </div>
+                                  <div>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                      <h3>Mohamed Salem</h3>
+                                      <div class="active-Default">Default</div>
+                                    </div>
+                                    <p>Before Al-Muallem Grilled Foods, Al-Muhammadiyah, Abha</p>
+                                    <p>Saudi Arabia</p>
+                                    <p>+966555276034</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-center gap-3">
+                                <button class="btn btn-Edit-Addresses">Edit</button>
+                                <button class="btn btn-Remove-Addresses">Remove</button>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="d-flex justify-content-between align-items-end">
+                              <div>
+                                <div class="d-flex gap-3">
+                                  <div class="box-icon-map">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                  </div>
+                                  <div>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                      <h3>Mohamed Salem</h3>
+                                      <!-- <div class="active-Default">Default</div> -->
+                                    </div>
+                                    <p>Before Al-Muallem Grilled Foods, Al-Muhammadiyah, Abha</p>
+                                    <p>Saudi Arabia</p>
+                                    <p>+966555276034</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-center gap-3">
+                                <button class="btn btn-Edit-Addresses">Edit</button>
+                                <button class="btn btn-Remove-Addresses">Remove</button>
+                              </div>
+                            </div>
+                          </li>
+
+                        </ul>
+                      </div>
+                      <button class="btn btn-Add-new-address">Add new Address</button>
+                    </div>
+                    <!-- ----------------------------------------------------- -->
+
+                    <!-- ----------------------------------------------------- -->
+                    <div class="box-Edit-Addresses">
+                      <h2 class="h2-body-Account">Edit Addresses</h2>
+                      <div class="box-form-Edit-Addresses">
+                        <form action="">
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Full
+                              name</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="Mohamed Salem">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Short
+                              address</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="Before Al-Muallem Grilled Foods, Al-Muhammadiyah, Abha">
+                          </div>
+
+                          <div class="mb-3">
+                            <label class="form-label label-address-add-edit">Country</label>
+                            <select class="form-select select-Edit-Addresses" aria-label="Default select example">
+                              <option selected>Saudi Arabia</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label label-address-add-edit">City</label>
+                            <select class="form-select  select-Edit-Addresses" aria-label="Default select example">
+                              <option selected>Cairo</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name"
+                              class="form-label label-address-add-edit">Street</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="">
+                          </div>
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Building
+                              number</label>
+                            <input type="number" class="form-control input-address-add-edit"
+                              id="Edit-Addresses-full-name" placeholder="">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Building
+                              number</label>
+                            <input type="tel" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="+966">
+                          </div>
+
+                          <div>
+                            <button type="button" class="btn btn-Save-Changes">Save Changes</button>
+                          </div>
+
+                        </form>
+                      </div>
+                    </div>
+                    <!-- ----------------------------------------------------- -->
+
+                    <!-- ----------------------------------------------------- -->
+                    <div class="box-Add-new-address">
+                      <h2 class="h2-body-Account">Add new address</h2>
+                      <div class="box-form-Edit-Addresses">
+                        <form action="">
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Full
+                              name</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="Mohamed Salem">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Short
+                              address</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="Before Al-Muallem Grilled Foods, Al-Muhammadiyah, Abha">
+                          </div>
+
+                          <div class="mb-3">
+                            <label class="form-label label-address-add-edit">Country</label>
+                            <select class="form-select select-Edit-Addresses" aria-label="Default select example">
+                              <option selected>Saudi Arabia</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label label-address-add-edit">City</label>
+                            <select class="form-select  select-Edit-Addresses" aria-label="Default select example">
+                              <option selected>Cairo</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name"
+                              class="form-label label-address-add-edit">Street</label>
+                            <input type="text" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="">
+                          </div>
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Building
+                              number</label>
+                            <input type="number" class="form-control input-address-add-edit"
+                              id="Edit-Addresses-full-name" placeholder="">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="Edit-Addresses-full-name" class="form-label label-address-add-edit">Building
+                              number</label>
+                            <input type="tel" class="form-control input-address-add-edit" id="Edit-Addresses-full-name"
+                              placeholder="+966">
+                          </div>
+
+
+                          <div class="form-check d-flex align-items-center gap-2 py-2">
+                            <input class="form-check-input input-check-default-address" type="checkbox" value=""
+                              id="flexCheckDefault">
+                            <label class="form-check-label label-check-default-address" for="flexCheckDefault">
+                              Make this as the default address
+                            </label>
+                          </div>
+
+
+                          <div>
+                            <button type="button" class="btn btn-Save-Changes-add ">Save Changes</button>
+                          </div>
+
+                        </form>
+                      </div>
+                    </div>
+                    <!-- ----------------------------------------------------- -->
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-Payment" role="tabpanel" aria-labelledby="v-pills-Payment-tab"
+                    tabindex="0">
+                    <div class="bpx-Payment">
+                      <h2 class="h2-body-Account">Payment</h2>
+
+                      <div>
+                        <!-- code Payment  -->
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== -->
+
+  <!-- ================================================== -->
+  <!-- footer -->
+  <footer>
+    <div class="box-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-footer-item">
+              <div class="box-img-logo-footer">
+                <img src="images/test/logo-footer.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Iaculis magnis est lectus volutpat in. Ullamcorper nunc
+                volutpat
+                eu porttitor faucibus. Laoreet lacinia mattis facilisi elit.</p>
+
+              <div class="box-social-media">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-img-sudi-business">
+              <img src="images/test/sudi-business.png" alt="">
+            </div>
+            <div class="box-VAT">
+              <div class="box-img-VAT">
+                <img src="images/test/avt.png" alt="">
+              </div>
+              <div class="box-text-VAt">
+                <ul>
+                  <li>Company name</li>
+                  <li>Commercial register</li>
+                  <li>Tax Number</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-Copyright-Made-with">
+        <div class="box-Copyright">
+          <p>Copyright © 2023. All rights reserved</p>
+        </div>
+        <div class="box-Made-with">
+          <p>Made with 🖤 By <span><img src="images/test/dotconnect logo1 1.png" alt=""></span></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ================================================== -->
+
+  <!-- ================================================== -->
+  <!-- js -->
+  <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- owl carousel JS -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <script src="js/main-en.js"></script>
+  <!-- <script src="js/main-ar.js"></script> -->
+  <!-- ===================================================================================================== -->
+</body>
+
+</html>

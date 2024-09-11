@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="ecommerce, shopping" />
+  <meta name="author" content="Wazin" />
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wazin</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="icon" href="images/test/hover-image-01.webp" type="" />
+
+  <!-- ================================================== -->
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- ================================================== -->
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- ================================================== -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <!-- ================================================== -->
+  <!-- style css en & ar -->
+
+  <!-- the compressed, production -->
+  <link rel="stylesheet" href="css/style-en.css" />
+  <link rel="stylesheet" href="css/style-ar.css" />
+
+
+  <!-- ================================================== -->
+
+  <style>
+    :root {
+      /* --mainColor: #5d1be0; */
+    }
+  </style>
+  <!-- ================================================== -->
+</head>
+
+<body>
+  <!-- ================================================== -->
+  <!-- navbar -->
+  <nav class="">
+    <div class="box-nav ">
+      <div class="container">
+
+        <div class="box-items-nav">
+          <div class="d-flex gap-3 w-100">
+            <div class="box-logo-nav">
+              <a href="index.html">
+                <img src="images/test/logo-nav.png" alt="" />
+              </a>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center w-100">
+              <div class="box-Categories-nav box-Categories-nav-1">
+                <select class="form-select select-Categories" aria-label="Default select example">
+                  <option selected>Categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="box-Search-nav">
+                <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-list-link-nav-1">
+            <ul class="box-lists-ul">
+
+              <li class="item-link Favorite">
+                <a href="index.html"></a>
+              </li>
+
+              <li class="item-link">
+                <a href="index.html">Sell</a>
+              </li>
+
+
+              <li class="item-link">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarHeart"
+                  aria-controls="offcanvasNavbarHeart" aria-label="Toggle navigation" class="btn btn-heart">
+                  <i class="fa-regular fa-heart"></i>
+                  <div class="item-count hide item-count-nav"><span class=""></span></div>
+                </button>
+              </li>
+
+              <li class="item-link">
+                <div class="box-Notices"><i class="fa-regular fa-bell"></i></div>
+              </li>
+
+
+
+
+
+              <!-- ------------------------------------------------------- -->
+
+              <!-- <li class="item-link">
+                <div class="box-Categories-nav box-Categories-nav-2">
+                  <select class="form-select select-Categories" aria-label="Default select example">
+                    <option selected>Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </li> -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- Sign in / Sign up -->
+              <!-- <li class="item-link btn-buy-now box-button-Login-pc">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn btn-Login">Sign in
+                  / Sign up</button>
+              </li> -->
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- userName -->
+              <li class="item-link">
+                <div class="dropdown box-dropdown-userName">
+                  <button class="btn btn-dropdown-userName" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="icon-userName"><i class="fa-regular fa-user"></i></span>
+                    <span class="userName">
+                      Ahmed
+                    </span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item active" href="#"><span><i
+                            class="fa-light fa-basket-shopping"></i></span> Orders</a></li>
+                    <li><a class="dropdown-item" href="#"><span><i class="fa-light fa-gear"></i></span> Settings </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> <span><i
+                            class="fa-light fa-arrow-right-from-bracket"></i></span> Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <!-- language -->
+              <li class="item-link">
+                <div class="dropdown box-language-dropdown">
+                  <button class="btn btn-dropdown-language" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span class="text-language">EN</span>
+                    <span class="icon-language"><i class="fa-solid fa-chevron-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><a class="dropdown-item" href="#">AR</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ------------------------------------------------------- -->
+
+              <!-- ------------------------------------------------------- -->
+              <li class="item-link btn-buy-now box-Search-nav-mo">
+                <div class="Search-nav-mo">
+                  <input type="text" class="form-control Search-nav" placeholder="Search for Items or sellers">
+                  <div class="icon-Search-nav"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="box-menu">
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================== -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Log In Modal-->
+  <section>
+    <div class="box-Modal-LogIn">
+      <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-LogIn">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- phone -->
+              <div class="box-phone-login">
+
+                <div class="d-flex flex-column gap-4">
+
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span>Sign in or create an account</span>
+                    <div class="box-close-modal">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <h3>Welcome back!</h3>
+                  <form action="">
+                    <label for="input-phone" class="form-label label-phone">Phone number</label>
+                    <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                    <button type="button" class="btn btn-LogIn-Modal" id="btnLogIn">Sign in</button>
+                  </form>
+
+                </div>
+              </div>
+              <!-- otp -->
+              <div class="box-otp-login">
+
+                <div class="row align-items-center">
+
+                  <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="box-back-Phone-code">
+                        <button class="btn btn-back-Phone"> <i class="fa-solid fa-arrow-left"></i></button>
+                        <span>Verification code</span>
+                      </div>
+                      <div class="box-close-modal">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    </div>
+
+
+                    <form action="">
+                      <p>Enter the code that sent to</p>
+                      <div class="phone-in-otp">+966 597 556 153</div>
+
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                      <div class="d-flex align-items-center justify-content-center flex-column">
+
+                        <button class="btn btn-Continue-OTP">Continue</button>
+                        <button class="btn btn-Resend-OTP">Resend code</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ===================================================================================================== -->
+  <!-- Favorite -->
+  <aside>
+    <div class="offcanvas box-aside-heart offcanvas-end" tabindex="-1" id="offcanvasNavbarHeart"
+      aria-labelledby="offcanvasNavbarHeartLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasNavbarHeartLabel">
+          Favorite
+        </h2>
+        <button type="button" class="btn-close-cart btn" data-bs-dismiss="offcanvas" aria-label="Close">
+          close
+        </button>
+      </div>
+      <hr />
+      <div class="offcanvas-body offcanvas-body-Favorites">
+
+
+        <!-- ========================================== -->
+        <!-- TODO:dynamic product id -->
+        <!-- code php -->
+
+        <div class="box-all-item-heart">
+          <!-- <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box-aside-cart-img-Quantity-trash-border ">
+            <div class="box-aside-cart-img-Quantity-trash">
+  
+              <div class="d-flex gap-2 align-items-center">
+                <div class="box-img-aside-heart">
+                  <img src="images/test/Categories-1.png" alt="">
+                </div>
+                <div>
+                  <h3>18k Diamond Ring</h3>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- ============================================ -->
+
+
+
+      </div>
+    </div>
+  </aside>
+  <!-- ===================================================================================================== -->
+
+  <!-- ================================================== -->
+
+  <section>
+    <div class="">
+      <div class="container">
+        <div class="box-Jewelry box-Brands" >
+          <h1>Louis Vuitton</h1>
+
+          <div class="box-links-Filters">
+            <div class="d-flex gap-3 flex-wrap">
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Filters">
+                <span><i class="fa-regular fa-bars-filter"></i></span>
+                <span>Filters</span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Material">
+                <span>Material</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Color">
+                <span>Color</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Brand">
+                <span>Brand</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Gender">
+                <span>Gender</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Stone">
+                <span>Stone</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Certifications">
+                <span>Certifications</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+
+              <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" class="btn-Filters-Links btn btn-Price">
+                <span>Price</span>
+                <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="box-Products-select-Objects-Jewelry">
+            <div class="d-flex justify-content-between align-items-center">
+              <span> 80 Objects</span>
+              <div class="d-flex align-items-center">
+
+                <div> Sort by </div>
+                <select class="form-select select-time" aria-label="Default select example">
+                  <option selected>Remaining time</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+              </div>
+            </div>
+
+            <div class="box-Products-Jewelry">
+              <div class="row g-4">
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="40">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle1.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="41">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle2.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="42">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle3.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-50>
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle4.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="44">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle5.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="45">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle6.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="46">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle7.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="47">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle1.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="48">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle2.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="49">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle3.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="50">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle4.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="51">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle5.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="52">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle6.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="53">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle7.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="54">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle6.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                  <div class="item-data" data-product-id="55">
+                    <div class="product-item pb-3">
+                      <a href="Product-Details.html">
+                        <div class="img-product img-data">
+                          <img src="images/test/Rectangle7.png" alt="">
+                        </div>
+                      </a>
+                      <div class="product-item-text">
+                        <div>
+                          <div class="bids">30 bids</div>
+                        </div>
+                        <div>
+                          <button class="product-Favorite btn-Favorite-data "></button>
+                        </div>
+                        <h3 class="titel-product">18k Diamond Ring</h3>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                          <div class="box-Starting">
+                            <div class="item-Starting">Starting bid</div>
+                            <h4>600 <span>SAR</span></h4>
+                          </div>
+                          <div class="box-Current">
+                            <div class="item-Current">Current bid</div>
+                            <h4>1,000 <span>SAR</span></h4>
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <button class="btn btn-bid-now">Bid now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== -->
+
+  <section>
+    <div class="box-sidbar-Filters">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-body box-offcanvas-body">
+
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Filters h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Filters</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-body-items vh-70">
+              <ul>
+                <li>
+                  <button
+                    class="btn btn-Material btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Material</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Color btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Color</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Brand btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Brand</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Gender btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Gender</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Stone btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Stone</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Certifications btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Certifications</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Price btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Price</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Price btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Price</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Price btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Price</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-Price btn-all-sidbar d-flex align-items-center justify-content-between w-100">
+                    <span>Price</span>
+                    <span class="icon-arrow-filter"><i class="fa-solid fa-angle-right"></i></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Material h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Material</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault1">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault2">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault3">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault4">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault5">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault6">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault7">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault8">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault9">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault10">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault11">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault12">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Color h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Color</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault13">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault14">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault15">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault16">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault17">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault18">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault19">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault20">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault20">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault21">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault21">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault22">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault22">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault23">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault23">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault24">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault24">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Brand h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Brand</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault25">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault25">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault26">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault26">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault27">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault27">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault28">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault28">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault29">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault29">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault30">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault30">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault31">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault31">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault32">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault32">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault33">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault33">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault34">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault34">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault35">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault35">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault36">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault36">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Gender h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Gender</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault37">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault37">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault38">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault38">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault39">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault39">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault40">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault40">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault41">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault41">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault42">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault42">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault43">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault43">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault44">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault45">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault45">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault146">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault146">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault147">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault147">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1248">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault1248">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Stone h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Stone</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault149">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault149">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault250">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault250">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault351">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault351">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault452">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault452">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault53">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault53">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault654">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault654">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault755">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault755">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault856">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault856">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault957">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault957">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1058">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault1058">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1159">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault1159">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1260">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault1260">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Certifications h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Certifications</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault61">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault61">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault62">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault62">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault63">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault63">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault64">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault64">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault65">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault65">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault66">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault66">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault67">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault67">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault68">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault68">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault69">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault69">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault610">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault610">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault611">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault611">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault612">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault612">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div class="body-Price h-100">
+            <div class="d-flex align-items-center  justify-content-between">
+              <div class="d-flex gap-3 align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <span class="titel-name">Price</span>
+              </div>
+              <div>
+                <button class="btn btn-Clear">Clear</button>
+              </div>
+            </div>
+            <div class="box-form-check box-body-items vh-70">
+              <form action="">
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault71">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault71">
+                    Diamond <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault72">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault72">
+                    Sapphire <span>(50)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault73">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault73">
+                    Emerald  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault74">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault74">
+                    Tanzanite <span>(14)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault75">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault75">
+                    Ruby  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault76">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault76">
+                    Sapphires  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault77">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault77">
+                    Amethyst  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault78">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault78">
+                    Topaz  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault79">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault79">
+                    Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault710">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault710">
+                    Akoya Pearl  <span>(12)</span>
+                  </label>
+                </div>
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault711">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault711">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+
+                <div class="form-check box-check-filter">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault712">
+                  <label class="form-check-label label-check-filters" for="flexCheckDefault712">
+                    Spinel  <span>(12)</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button class="btn btn-all-Filters">Show 350 objects</button>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+
+          <!-- --------------------------------------------------------------- -->
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== -->
+  <!-- footer -->
+  <footer>
+    <div class="box-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-footer-item">
+              <div class="box-img-logo-footer">
+                <img src="images/test/logo-footer.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Iaculis magnis est lectus volutpat in. Ullamcorper nunc
+                volutpat
+                eu porttitor faucibus. Laoreet lacinia mattis facilisi elit.</p>
+
+              <div class="box-social-media">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="box-img-sudi-business">
+              <img src="images/test/sudi-business.png" alt="">
+            </div>
+            <div class="box-VAT">
+              <div class="box-img-VAT">
+                <img src="images/test/avt.png" alt="">
+              </div>
+              <div class="box-text-VAt">
+                <ul>
+                  <li>Company name</li>
+                  <li>Commercial register</li>
+                  <li>Tax Number</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-Copyright-Made-with">
+        <div class="box-Copyright">
+          <p>Copyright © 2023. All rights reserved</p>
+        </div>
+        <div class="box-Made-with">
+          <p>Made with 🖤 By <span><img src="images/test/dotconnect logo1 1.png" alt=""></span></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ================================================== -->
+
+  <!-- ================================================== -->
+  <!-- js -->
+  <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- owl carousel JS -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <script src="js/main-en.js"></script>
+  <!-- <script src="js/main-ar.js"></script> -->
+  <!-- ===================================================================================================== -->
+</body>
+
+</html>
